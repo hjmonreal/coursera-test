@@ -1,0 +1,79 @@
+body {
+  }
+
+/* HEADER */
+.header-nav {
+  
+}
+.navbar-brand {	
+	margin-bottom: 20px;
+}
+.navbar-brand h1 { /* Company name */
+	margin-top: 0px;
+	margin-bottom: 0px;
+  }
+.navbar-toggle {
+	margin-top: 20px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+.nav-item {
+	background-color: #ffd6cc;
+	border: 2px solid black;
+	border-bottom: none;
+}
+.nav-item:last-child {
+	border: 2px solid black;
+}
+
+/* END HEADER */
+
+/* BODY */
+
+#column-block {
+  padding: 20px 20px 20px 20px; 
+}
+.col {
+  position:relative;
+  background-color: #ccd9ff;
+  padding: 0px 10px 10px 10px;
+  height: 1000px;  
+}
+.col h3 {
+  padding-top: 10px;
+}
+.col span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 33%;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #000;
+  opacity: .8;
+}
+#section1{
+
+}
+#section2{
+  
+}
+#section3{
+  
+}
+
+/* END BODY */
+
+/********** Small devices only **********/
+@media (max-width: 768px) {
+  /* Home Page */
+  .container {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
